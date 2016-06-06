@@ -1,0 +1,23 @@
+<html>
+	<head>
+		{% if title %}
+		<title>{{title}} - by kissjava</title>
+		{% else %}
+		<title>Welcome ... - by kissjava</title>
+		{% endif%}
+	</head>
+	<body>
+		<div>Myblog:<a href="/index">Home</a><div>
+		<hr>
+		{% with message = get_flashed_messages() %}
+		{% if messages %}
+		<ul>
+		{% for message in messages %}
+			<li>{{ message }}</li>
+		{% endfor %}	
+		</ul>
+		{% endif %}
+		{% endwith %}
+		{% block content %} {% endblock %}
+	</body>
+</html>

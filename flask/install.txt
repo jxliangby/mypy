@@ -1,0 +1,16 @@
+#1.pip3 install virtualenv
+#2.virtualenv --no-site-packages venv
+#3.mkdir XX virtualenv --no-site-packages XX
+#4.xx/bin/activate
+
+
+ install flask
+ install flask-login
+ install flask-openid
+ install flask-mail
+ install flask-sqlalchemy
+ install sqlalchemy-migrate
+ install flask-whooshalchemy
+ install flask-wtf
+ install flask-babel
+ install flup6
