@@ -13,7 +13,7 @@ class User(db.Model):
 	is_authenticated = True
 	is_active = True
 	is_anonymous = False
-	
+
 	def is_authenticated(self):
 		return True
 
@@ -24,7 +24,7 @@ class User(db.Model):
 		return False
 
 	def get_id(self):
-		return unicode(self.id)
+		return self.id
 
 	def __repr__(self):
 		return 'User %s' %(self.nickname)
