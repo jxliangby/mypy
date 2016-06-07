@@ -1,0 +1,4 @@
+2016-06-07 18:09:18,693 INFO: ....system startup..... [in E:\workspace2\python\mypy\flask\app\__init__.py:57]
+2016-06-07 18:09:20,078 INFO: ....system startup..... [in E:\workspace2\python\mypy\flask\app\__init__.py:57]
+2016-06-07 18:16:46,114 INFO: ....system startup..... [in E:\workspace2\python\mypy\flask\app\__init__.py:55]
+2016-06-07 18:16:51,650 INFO: posts size [] [in E:\workspace2\python\mypy\flask\app\views.py:67]
